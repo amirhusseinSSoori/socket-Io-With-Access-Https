@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_chatF_message"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="6dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginTop="5dp"
+    android:gravity="left">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="8dp"
+        android:background="@drawable/chat_message_guest">
+
+
+        <TextView
+            android:id="@+id/txt_message_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="سلام به اقای دکتر عزیز"
+            android:fontFamily="@font/vazir_light"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:id="@+id/txt_model_chat_date_m_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/vazir_medium_fd"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            tools:text="12:11"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
